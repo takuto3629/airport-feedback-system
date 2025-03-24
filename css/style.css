@@ -1,0 +1,102 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 登录页样式 */
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 主页面样式 */
+.main-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-area {
+  flex: 1;
+  background-color: #f8f9fa;
+}
+
+/* 表格样式 */
+.table th {
+  background-color: #f1f5f9;
+}
+
+.truncate {
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 评分标签样式 */
+.rating-tag {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.rating-1 {
+  background-color: #ffebee;
+  color: #d32f2f;
+}
+
+.rating-2 {
+  background-color: #fff8e1;
+  color: #ff8f00;
+}
+
+.rating-3 {
+  background-color: #e3f2fd;
+  color: #0277bd;
+}
+
+.rating-4 {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.rating-5 {
+  background-color: #e0f7fa;
+  color: #00838f;
+}
+
+/* 状态标签样式 */
+.status-tag {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.status-pending {
+  background-color: #fff8e1;
+  color: #ff8f00;
+}
+
+.status-processing {
+  background-color: #e3f2fd;
+  color: #0277bd;
+}
+
+.status-completed {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
